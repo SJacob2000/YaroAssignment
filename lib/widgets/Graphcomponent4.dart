@@ -3,8 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'lineChart.dart';
 
-class Component4 extends StatelessWidget {
-  const Component4({super.key});
+class GraphComponent4 extends StatelessWidget {
+  const GraphComponent4({super.key});
 
   @override
   Widget build(BuildContext context) {

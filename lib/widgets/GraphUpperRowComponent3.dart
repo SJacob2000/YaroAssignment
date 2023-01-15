@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Component3 extends StatelessWidget {
-  const Component3({super.key});
+class GraphUpperRowComponent3 extends StatelessWidget {
+  const GraphUpperRowComponent3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,6 +24,11 @@ class Component3 extends StatelessWidget {
         Container(
           width: 58,
           height: 25,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(5),
+            color: Color(0xffFFC371),
+          ),
+          // ignore: sort_child_properties_last
           child: Center(
             child: Text(
               "1D",
@@ -35,7 +40,6 @@ class Component3 extends StatelessWidget {
               ),
             ),
           ),
-          color: Color(0xffFFC371),
         ),
         SizedBox(
           width: 22,

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Component5 extends StatelessWidget {
-  const Component5({super.key});
+class GraphBottomRowComponent5 extends StatelessWidget {
+  const GraphBottomRowComponent5({super.key});
 
   @override
   Widget build(BuildContext context) {

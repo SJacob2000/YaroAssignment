@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/component1.dart';
 import '../widgets/component10.dart';
 import '../widgets/component11.dart';
-import '../widgets/component13.dart';
+import '../widgets/StockDetailcomponent13.dart';
 import '../widgets/component14.dart';
-import '../widgets/component15.dart';
-import '../widgets/component2.dart';
-import '../widgets/component3.dart';
-import '../widgets/component4_Graph.dart';
-import '../widgets/component5.dart';
-import '../widgets/component6.dart';
+import '../widgets/BuySellcomponent15.dart';
+import '../widgets/ProductStockComponent2.dart';
+import '../widgets/GraphUpperRowComponent3.dart';
+import '../widgets/Graphcomponent4.dart';
+import '../widgets/GraphBottomRowcomponent5.dart';
+import '../widgets/Performacecomponent6.dart';
 import '../widgets/component7.dart';
+import '../widgets/navBarComponent1.dart';
 
 class YaroPage extends StatefulWidget {
   const YaroPage({super.key});
@@ -32,26 +32,26 @@ class _YaroPageState extends State<YaroPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            //......................................Component 1st.........................................//
+            //......................................NavBar Component 1st.........................................//
             const SizedBox(
               height: 40,
             ),
-            const Component1(),
+            const NavBar(),
             const SizedBox(
               height: 28,
             ),
-            //............................................Component 2nd.............................................................//
-            const Component2(),
+            //............................................ProductStock Component 2nd.............................................................//
+            const ProductStockComponent(),
             const SizedBox(
               height: 31,
             ),
-            //............................................Component 3rd...........................//
-            const Component3(),
+            //............................................GraphUpperRow Component 3rd...........................//
+            const GraphUpperRowComponent3(),
 
             //.................................................Graph Component 4..............................//
-            const Component4(),
-            //.........................................Component 5...................................//
-            const Component5(),
+            const GraphComponent4(),
+            //.........................................GraphBottomRow Component 5...................................//
+            const GraphBottomRowComponent5(),
             const SizedBox(
               height: 42,
             ),
@@ -107,12 +107,12 @@ class _YaroPageState extends State<YaroPage> {
               activeColor: Color(0xff1ECB98),
               inactiveColor: Color(0xff1ECB98),
             ),
-            //............................................Component  13............................................//
-            const Component13(),
+            //............................................StockDetail Component  13............................................//
+            const StockDetailComponent13(),
             //...........................................Component  14...............................................//
             const Component14(),
-            //..............................................Component 15..............................................//
-            const Component15(),
+            //..............................................BuySell Component 15..............................................//
+            const BuySellComponent15(),
             SizedBox(),
           ],
         ),

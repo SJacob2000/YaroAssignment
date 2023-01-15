@@ -1,8 +1,8 @@
 import "package:flutter/material.dart";
 import 'package:google_fonts/google_fonts.dart';
 
-class Component2 extends StatelessWidget {
-  const Component2({super.key});
+class ProductStockComponent extends StatelessWidget {
+  const ProductStockComponent({super.key});
 
   @override
   Widget build(BuildContext context) {
